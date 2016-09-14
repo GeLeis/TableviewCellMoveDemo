@@ -16,23 +16,36 @@
 @implementation CustomCell
 
 -(void)awakeFromNib{
-	UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(didPan:)];
-	[self addGestureRecognizer:pan];
+	
 }
 
--(void)didPan:(UIPanGestureRecognizer *)pan{
-	if (self.panAction) {
-		if (pan.state == UIGestureRecognizerStateBegan) {
-			self.bgColor = self.backgroundColor;
-			self.backgroundColor = [UIColor clearColor];
-		}else if (pan.state == UIGestureRecognizerStateChanged) {
-			
-		}else if (pan.state == UIGestureRecognizerStateEnded) {
-			self.backgroundColor = self.bgColor;
-		}
-		
-		self.panAction(pan);
-	}
+
+
+//通过这三个方法来改变cell
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+	NSLog(@"began");
+	self.bgColor = self.backgroundColor;
+	[UIView animateWithDuration:0.3 animations:^{
+		self.backgroundColor = [UIColor clearColor];
+	}];
+	
+}
+
+-(void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+	NSLog(@"moved");
+	//这里touches只有一个UITouch
+	UITouch *touch  = [touches anyObject];
+	CGPoint point = [touch locationInView:self];
+	CGPoint precisePoint = [touch preciseLocationInView:self];
+	
+}
+
+-(void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+	NSLog(@"cancelled");
+	[UIView animateWithDuration:0.3 animations:^{
+		self.backgroundColor = self.bgColor;
+	}];
+	
 }
 
 @end

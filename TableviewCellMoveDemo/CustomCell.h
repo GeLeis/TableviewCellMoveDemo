@@ -9,5 +9,4 @@
 #import <UIKit/UIKit.h>
 
 @interface CustomCell : UITableViewCell
-@property (nonatomic,strong) void(^panAction)(UIPanGestureRecognizer *);
 @end

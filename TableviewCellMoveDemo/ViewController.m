@@ -44,20 +44,6 @@
 	cell.selectionStyle = UITableViewCellSelectionStyleNone;
 	cell.textLabel.text = [NSString stringWithFormat:@"%ld",[self.listData[indexPath.row] integerValue]];
 	cell.imageView.image = [UIImage imageNamed:@"image"];
-	__weak typeof(cell) weakCell = cell;
-	cell.panAction = ^(UIPanGestureRecognizer *pan){
-		CGPoint translate = [pan translationInView:tableView];
-		NSLog(@"%f",translate.y);
-		if (pan.state == UIGestureRecognizerStateBegan) {
-			self.translateY = 0.f;
-		}else if (pan.state == UIGestureRecognizerStateChanged) {
-			self.translateY += translate.y;
-			weakCell.frame = CGRectMake(weakCell.frame.origin.x, weakCell.frame.origin.y + translate.y, weakCell.frame.size.width, weakCell.frame.size.height);
-			[pan setTranslation:CGPointZero inView:tableView];
-		}else if (pan.state == UIGestureRecognizerStateEnded) {
-			
-		}
-	};
 	
 	return cell;
 }
