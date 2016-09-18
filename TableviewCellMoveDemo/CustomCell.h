@@ -9,4 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface CustomCell : UITableViewCell
+@property (nonatomic,strong) UILongPressGestureRecognizer *press;
+@property (nonatomic,copy) void(^panAction)(UILongPressGestureRecognizer *press);
 @end
