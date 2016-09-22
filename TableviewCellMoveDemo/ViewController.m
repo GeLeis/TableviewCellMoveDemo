@@ -34,6 +34,15 @@
 	self.tableView.frame = CGRectMake(0, 0, self.view.frame.size.width, 60 * 10);
 	self.tableView.layer.borderWidth = 1;
 	self.tableView.layer.borderColor = [UIColor lightGrayColor].CGColor;
+	self.tableView.layer.borderColor = [UIColor lightGrayColor].CGColor;
+	self.tableView.layer.borderColor = [UIColor lightGrayColor].CGColor;
+	self.tableView.layer.borderColor = [UIColor lightGrayColor].CGColor;
+	self.tableView.layer.borderColor = [UIColor lightGrayColor].CGColor;
+	self.tableView.layer.borderColor = [UIColor lightGrayColor].CGColor;
+	self.tableView.layer.borderColor = [UIColor lightGrayColor].CGColor;
+	self.tableView.layer.borderColor = [UIColor lightGrayColor].CGColor;
+	self.tableView.layer.borderColor = [UIColor lightGrayColor].CGColor;
+	self.tableView.layer.borderColor = [UIColor lightGrayColor].CGColor;
 }
 
 -(NSMutableArray *)listData{
