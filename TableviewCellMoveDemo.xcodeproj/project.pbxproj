@@ -16,6 +16,7 @@
 		0E2A7C161D82A2C100C3658E /* TableviewCellMoveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2A7C151D82A2C100C3658E /* TableviewCellMoveDemoTests.m */; };
 		0E2A7C211D82A2C100C3658E /* TableviewCellMoveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2A7C201D82A2C100C3658E /* TableviewCellMoveDemoUITests.m */; };
 		0E2A7C301D82ACF800C3658E /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2A7C2F1D82ACF800C3658E /* CustomCell.m */; };
+		0EBEA8691DBD987A00C27CA4 /* V4fromMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBEA8681DBD987A00C27CA4 /* V4fromMasterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		0E2A7C221D82A2C100C3658E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E2A7C2E1D82ACF800C3658E /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
 		0E2A7C2F1D82ACF800C3658E /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		0EBEA8671DBD987A00C27CA4 /* V4fromMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V4fromMasterViewController.h; sourceTree = "<group>"; };
+		0EBEA8681DBD987A00C27CA4 /* V4fromMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V4fromMasterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				0E2A7C2F1D82ACF800C3658E /* CustomCell.m */,
 				0E2A7C011D82A2C100C3658E /* ViewController.h */,
 				0E2A7C021D82A2C100C3658E /* ViewController.m */,
+				0EBEA8671DBD987A00C27CA4 /* V4fromMasterViewController.h */,
+				0EBEA8681DBD987A00C27CA4 /* V4fromMasterViewController.m */,
 				0E2A7C041D82A2C100C3658E /* Main.storyboard */,
 				0E2A7C071D82A2C100C3658E /* Assets.xcassets */,
 				0E2A7C091D82A2C100C3658E /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EBEA8691DBD987A00C27CA4 /* V4fromMasterViewController.m in Sources */,
 				0E2A7C031D82A2C100C3658E /* ViewController.m in Sources */,
 				0E2A7C001D82A2C100C3658E /* AppDelegate.m in Sources */,
 				0E2A7C301D82ACF800C3658E /* CustomCell.m in Sources */,
@@ -502,6 +508,7 @@
 				0E2A7C271D82A2C100C3658E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E2A7C281D82A2C100C3658E /* Build configuration list for PBXNativeTarget "TableviewCellMoveDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +517,7 @@
 				0E2A7C2A1D82A2C100C3658E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E2A7C2B1D82A2C100C3658E /* Build configuration list for PBXNativeTarget "TableviewCellMoveDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +526,7 @@
 				0E2A7C2D1D82A2C100C3658E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
