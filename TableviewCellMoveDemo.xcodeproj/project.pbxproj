@@ -17,6 +17,7 @@
 		0E2A7C211D82A2C100C3658E /* TableviewCellMoveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2A7C201D82A2C100C3658E /* TableviewCellMoveDemoUITests.m */; };
 		0E2A7C301D82ACF800C3658E /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2A7C2F1D82ACF800C3658E /* CustomCell.m */; };
 		0EBEA8631DBD977C00C27CA4 /* V2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBEA8621DBD977C00C27CA4 /* V2ViewController.m */; };
+		0EBEA8661DBD980700C27CA4 /* V3FromV2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBEA8651DBD980700C27CA4 /* V3FromV2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		0E2A7C2F1D82ACF800C3658E /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		0EBEA8611DBD977C00C27CA4 /* V2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2ViewController.h; sourceTree = "<group>"; };
 		0EBEA8621DBD977C00C27CA4 /* V2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2ViewController.m; sourceTree = "<group>"; };
+		0EBEA8641DBD980700C27CA4 /* V3FromV2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V3FromV2ViewController.h; sourceTree = "<group>"; };
+		0EBEA8651DBD980700C27CA4 /* V3FromV2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V3FromV2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				0E2A7C021D82A2C100C3658E /* ViewController.m */,
 				0EBEA8611DBD977C00C27CA4 /* V2ViewController.h */,
 				0EBEA8621DBD977C00C27CA4 /* V2ViewController.m */,
+				0EBEA8641DBD980700C27CA4 /* V3FromV2ViewController.h */,
+				0EBEA8651DBD980700C27CA4 /* V3FromV2ViewController.m */,
 				0E2A7C041D82A2C100C3658E /* Main.storyboard */,
 				0E2A7C071D82A2C100C3658E /* Assets.xcassets */,
 				0E2A7C091D82A2C100C3658E /* LaunchScreen.storyboard */,
@@ -285,6 +290,7 @@
 				0EBEA8631DBD977C00C27CA4 /* V2ViewController.m in Sources */,
 				0E2A7C301D82ACF800C3658E /* CustomCell.m in Sources */,
 				0E2A7BFD1D82A2C100C3658E /* main.m in Sources */,
+				0EBEA8661DBD980700C27CA4 /* V3FromV2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
